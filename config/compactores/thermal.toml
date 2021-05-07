@@ -1,0 +1,17 @@
+["!local"]
+rockTexture = "minecraft:block/stone"
+
+[":nickel_ore"]
+oreTexture = ":block/ores/nickel_ore"
+
+[":tin_ore"]
+oreTexture = ":block/ores/tin_ore"
+
+[":silver_ore"]
+oreTexture = ":block/ores/silver_ore"
+
+[":copper_ore"]
+oreTexture = ":block/ores/copper_ore"
+
+[":lead_ore"]
+oreTexture = ":block/ores/lead_ore"

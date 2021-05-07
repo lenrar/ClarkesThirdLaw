@@ -1,0 +1,31 @@
+{
+  "flower": "ALL",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 900,
+  "ColorData": {
+    "isBeeColored": true,
+    "honeycombColor": "#AB7D36",
+    "primaryColor": "#AB7D36",
+    "secondaryColor": "#CA8453",
+    "isGlowing": true,
+    "glowColor": "#AB7D36"
+  },
+  "MutationData": {
+    "hasMutation": true,
+    "mutationInput": "minecraft:stone",
+    "mutationOutput": "minecraft:netherrack",
+    "mutationType": "BLOCK_TO_BLOCK"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "minecraft:glowstone_dust"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": true,
+    "biomeWhitelist": "tag:nether"
+  },
+  "BreedData": {
+    "isBreedable": true
+  },
+  "TraitData": {}
+}

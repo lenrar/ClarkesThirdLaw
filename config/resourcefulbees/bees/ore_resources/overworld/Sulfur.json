@@ -1,0 +1,32 @@
+{
+  "flower": "tag:forge:storage_blocks/sulfur",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 900,
+  "baseLayerTexture": "/ores/custom_crystal/custom_bee",
+  "ColorData": {
+    "isBeeColored": true,
+    "secondaryLayerTexture":"ores/gem/custom/custom_gem_bee_secondary",
+    "honeycombColor": "#E6FB87",
+    "primaryColor": "#ffffff",
+    "secondaryColor": "#E6FB87"
+  },
+  "MutationData": {
+    "hasMutation": true,
+    "mutationInput": "minecraft:stone",
+    "mutationOutput": "thermal:sulfur_ore",
+    "mutationType": "BLOCK_TO_BLOCK"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "thermal:sulfur"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": true,
+    "biomeWhitelist": "tag:OVERWORLD",
+    "biomeBlacklist": "tag:ocean"
+  },
+  "BreedData": {
+    "isBreedable": true
+  },
+  "TraitData": {}
+}

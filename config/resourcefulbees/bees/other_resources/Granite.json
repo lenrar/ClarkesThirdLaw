@@ -1,0 +1,30 @@
+{
+  "flower": "ALL",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 600,  
+  "baseLayerTexture": "stones/granite_bee",
+  "ColorData": {
+    "isBeeColored": true,
+    "primaryLayerTexture": "stones/stone_bee_secondary",
+    "primaryColor": "#ffffff",
+    "honeycombColor": "#9D6A57"
+  },
+  "MutationData": {
+    "hasMutation": false
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "minecraft:granite"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": true,
+    "biomeWhitelist": "tag:OVERWORLD",
+    "biomeBlacklist": "tag:ocean"
+  },
+  "BreedData": {
+    "isBreedable": true
+  },
+  "TraitData": {
+    "hasTraits": true
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "flower": "thermal:lumium_block",
+  "hasHoneycomb": false,
+  "maxTimeInHive": 600,
+  "baseLayerTexture": "/ores/custom/custom_bee",
+  "ColorData": {
+    "isBeeColored": true,
+    "honeycombColor": "#FCAA00",
+    "primaryColor": "#ffffff",
+    "primaryLayerTexture":"/ores/custom/custom_bee_primary",
+    "secondaryLayerTexture":"/ores/custom/custom_bee_secondary",
+    "emissiveLayerTexture":"ores/custom/custom_bee_emissive",
+    "secondaryColor": "#D7CD7C",
+    "isGlowing": true,
+    "glowColor": "#D7CD7C",
+    "modelType": "ORE"
+  },
+  "MutationData": {
+    "hasMutation": true,
+    "mutationInput": "minecraft:glowstone",
+    "mutationOutput": "thermal:lumium_block",
+    "mutationType": "BLOCK_TO_BLOCK"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": false
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "Silver",
+    "parent2": "Tin",
+    "feedItem": "minecraft:glowstone_dust"
+  },
+  "TraitData": {
+    "hasTraits": true
+  }
+}

@@ -1,0 +1,33 @@
+{
+	id: "668E957B13C31795",
+	group: "5A8B89F87F77CF4C",
+	order_index: 8,
+	filename: "psi",
+	title: "Psi",
+	icon: "psi:cad_core_radiative",
+	default_quest_shape: "",
+	quests: [{
+		x: -0.5d,
+		y: -0.5d,
+		subtitle: "Here's a free book",
+		description: ['Psi is a magic mod based around "programming" spells. Take a look at the included book for more details.'],
+		id: "1A2EFF8248D4FEE0",
+		tasks: [{
+			id: "0C00C8BAF374C51C",
+			type: "checkmark",
+			title: "Welcome to Psi",
+			icon: "psi:cad_assembly_iron"
+		}],
+		rewards: [{
+			id: "4C317E6521C39BA5",
+			type: "item",
+			item: {
+				id: "patchouli:guide_book",
+				Count: 1b,
+				tag: {
+					"patchouli:book": "psi:encyclopaedia_psionica"
+				}
+			}
+		}]
+	}]
+}

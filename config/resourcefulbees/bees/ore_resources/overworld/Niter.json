@@ -1,0 +1,32 @@
+{
+  "flower": "tag:forge:storage_blocks/niter",
+  "hasHoneycomb": true,
+  "maxTimeInHive": 900,
+  "baseLayerTexture": "/ores/custom_crystal/custom_bee",
+  "ColorData": {
+    "isBeeColored": true,
+    "secondaryLayerTexture":"ores/gem/custom/custom_gem_bee_secondary",
+    "honeycombColor": "#B8AFAF",
+    "primaryColor": "#ffffff",
+    "secondaryColor": "#B8AFAF"
+  },
+  "MutationData": {
+    "hasMutation": true,
+    "mutationInput": "minecraft:stone",
+    "mutationOutput": "thermal:niter_ore_ore",
+    "mutationType": "BLOCK_TO_BLOCK"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": true,
+    "mainOutput": "thermal:niter"
+  },
+  "SpawnData": {
+    "canSpawnInWorld": true,
+    "biomeWhitelist": "tag:dry",
+    "biomeBlacklist": "tag:ocean,tag:cold"
+  },
+  "BreedData": {
+    "isBreedable": true
+  },
+  "TraitData": {}
+}

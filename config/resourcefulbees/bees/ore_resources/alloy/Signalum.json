@@ -1,0 +1,36 @@
+{
+  "flower": "thermal:signalum_block",
+  "hasHoneycomb": false,
+  "maxTimeInHive": 600,
+  "baseLayerTexture": "/ores/custom/custom_bee",
+  "ColorData": {
+    "isBeeColored": true,
+    "honeycombColor": "#FA631A",
+    "primaryColor": "#ffffff",
+    "secondaryColor": "#FA631A",
+    "primaryLayerTexture":"/ores/custom/custom_bee_primary",
+    "secondaryLayerTexture":"/ores/custom/custom_bee_secondary",
+    "modelType": "ORE"
+  },
+  "MutationData": {
+    "hasMutation": true,
+    "mutationInput": "minecraft:redstone_block",
+    "mutationOutput": "thermal:signalum_block",
+    "mutationType": "BLOCK_TO_BLOCK"
+  },
+  "CentrifugeData": {
+    "hasCentrifugeOutput": false
+  },
+  "SpawnData": {
+    "canSpawnInWorld": false
+  },
+  "BreedData": {
+    "isBreedable": true,
+    "parent1": "Silver",
+    "parent2": "Copper",
+    "feedItem": "minecraft:redstone_dust"
+  },
+  "TraitData": {
+    "hasTraits": true
+  }
+}
