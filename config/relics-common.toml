@@ -138,14 +138,22 @@
 				fortuna_chance = 0.1
 
 			[general.relics.stats.stellar_catalyst]
-				#Range: > -2147483648
+				#Range: > 0
 				falling_star_damage_radius = 3
-				#Range: -2.147483648E9 ~ 2.147483647E9
+				#Range: 0.0 ~ 2.147483647E9
 				min_damage_amount = 3.0
-				#Range: -2.147483648E9 ~ 2.147483647E9
+				#Range: 0.0 ~ 2.147483647E9
 				falling_star_damage_multiplier = 0.5
 				#Range: 0.0 ~ 1.0
 				falling_star_summon_chance = 0.15
+				#Range: 0 ~ 256
+				min_falling_star_summon_height = 20
+				#Range: 0 ~ 256
+				additional_falling_star_summon_height = 20
+				#Range: 0.0 ~ 2.147483647E9
+				falling_star_impact_motion_multiplier = 1.0
+				#Range: 0.0 ~ 2.147483647E9
+				falling_star_speed = 0.7
 
 			[general.relics.stats.spatial_sign]
 				#Range: > -2147483648
@@ -184,10 +192,16 @@
 				dealing_damage_multiplier_per_stack = 0.1
 
 			[general.relics.stats.arrow_quiver]
-				#Range: > -2147483648
+				#Range: > 0
 				additional_arrow_count = 2
 				#Range: 0.0 ~ 1.0
 				multishot_chance = 0.2
+				#Range: > 0
+				multishot_cooldown = 2
+				#Range: > 0
+				arrow_pickup_radius = 16
+				#Range: > 0
+				arrow_pickup_cooldown = 3
 
 			[general.relics.stats.midnight_robe]
 				#Range: -2.147483648E9 ~ 2.147483647E9
@@ -323,6 +337,14 @@
 				#Range: 0.0 ~ 2.147483647E9
 				climbing_speed = 0.2
 
+			[general.relics.stats.out_runner]
+				#Range: -2.147483648E9 ~ 2.147483647E9
+				speed_multiplier = 1.25
+				#Range: 0.0 ~ 2.147483647E9
+				step_height = 1.1
+				#Range: > 0
+				time_before_activation = 5
+
 		[general.relics.worldgen]
 			#Range: 0.0 ~ 1.0
 			bastion_ring_gen_chance = 0.15
@@ -368,8 +390,6 @@
 			#Range: 0.0 ~ 1.0
 			rage_glove_gen_chance = 0.05
 			#Range: 0.0 ~ 1.0
-			shdow_glaive_gen_chance = 0.025
-			#Range: 0.0 ~ 1.0
 			arrow_quiver_gen_chance = 0.2
 			#Range: 0.0 ~ 1.0
 			magma_walker_gen_chance = 0.12
@@ -381,7 +401,22 @@
 			hunter_belt_gen_chance = 0.2
 			#Range: 0.0 ~ 1.0
 			blazing_flask_gen_chance = 0.05
+			#Range: 0.0 ~ 1.0
+			shadow_glaive_gen_chance = 0.025
+			#Range: 0.0 ~ 1.0
+			out_runner_gen_chance = 0.05
 
 		[general.relics.compatibility]
 			warn_about_old_forge = true
+
+		[general.relics.general]
+			store_relic_owner = true
+			#Range: 0.0 ~ 2.147483647E9
+			damage_non_relic_owner_amount = 3.0
+
+	[general.blocks]
+
+		[general.blocks.pedestal]
+			accept_any_item = true
+			spawn_particles = true
 

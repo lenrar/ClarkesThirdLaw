@@ -1,4 +1,4 @@
-// priority: 0
+// priority: 50
 
 events.listen('item.registry', (event) => {
     const items = [

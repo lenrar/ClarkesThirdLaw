@@ -6,6 +6,3 @@ oreTexture = ":block/metal/ore_aluminum"
 
 [":ore_nickel"]
 oreTexture = ":block/metal/ore_nickel"
-
-[":ore_uranium"]
-oreTexture = ":block/metal/ore_uranium"

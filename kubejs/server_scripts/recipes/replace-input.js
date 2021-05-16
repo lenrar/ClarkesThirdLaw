@@ -17,6 +17,8 @@ events.listen('recipes', function (event) {
     event.replaceInput({}, 'ars_nouveau:mana_gem', '#forge:gems/mana');
 
     event.replaceInput({}, 'immersiveengineering:slag', '#forge:slag');
+    event.replaceInput({}, 'immersiveengineering:ingot_uranium', 'mekanism:ingot_uranium');
+
 
     event.replaceInput({}, 'thermal:slag', '#forge:slag');
 
@@ -26,6 +28,11 @@ events.listen('recipes', function (event) {
     event.replaceInput({}, 'create:wheat_flour', '#forge:dusts/flour');
     event.replaceInput({}, 'create:dough', '#forge:doughs');
     event.replaceInput({}, 'create:bar_of_chocolate', '#forge:chocolate_bars');
+
+    event.replaceInput({}, 'mekanism:sawdust', '#forge:ores/iron');
+    event.replaceOutput({}, 'mekanism:sawdust', '#forge:ores/iron');
+    event.replaceOutput({}, 'mekanism:dust_lapis_lazuli', '#forge:dusts/lapis');
+    event.replaceInput({}, 'mekanism:dust_lapis_lazuli', '#forge:dusts/lapis');
 
     event.replaceInput({ type: 'minecraft:crafting_shaped' }, 'minecraft:stone', '#forge:stone', true);
     event.replaceInput({ type: 'minecraft:crafting_shapeless' }, 'minecraft:stone', '#forge:stone', true);
@@ -61,4 +68,12 @@ events.listen('recipes', function (event) {
         '#forge:ingots/nether_brick',
         'minecraft:nether_brick'
     );
+
+    
+    event.replaceInput({mod: 'neapolitan'}, 'minecraft:wheat', Item.of('create:wheat_flour'))
+    event.replaceInput({mod: 'farmersdelight'}, 'minecraft:wheat', Item.of('create:wheat_flour'))
+    event.replaceInput({mod: 'autumnity'}, 'minecraft:wheat', Item.of('create:wheat_flour'))
+
+    event.replaceInput({mod: 'thermal'}, 'thermal:strawberry', Item.of('neapolitan:strawberries'))
+    // event.replaceInput({output: '#supplementaries:cookies'}, 'minecraft:wheat', 'create:wheat_flour')
 });

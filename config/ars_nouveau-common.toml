@@ -21,7 +21,7 @@
 	#Spawn Arcane Ore in the world
 	genOre = true
 	#Spawn a book in the players inventory on login
-	spawnBook = true
+	spawnBook = false
 	#Spawn Mana Berry Bushes in the world
 	genBerries = true
 	#How often Wilden Guardians spawn
@@ -146,8 +146,6 @@
 	heal = true
 	#Leap enabled?
 	leap = true
-	#Decoy enabled?
-	decoy = true
 	#Redstone Signal enabled?
 	redstone_signal = true
 	#Pierce enabled?
@@ -188,6 +186,12 @@
 	wither = true
 	#Knockback enabled?
 	gust = true
+	#Underfoot enabled?
+	underfoot = true
+	#Summon Decoy enabled?
+	summon_decoy = true
+	#Hex enabled?
+	hex = true
 
 #Spell Cost
 [spell_cost]
@@ -263,9 +267,6 @@
 	#Exchange cost
 	#Range: > -2147483648
 	exchange_cost = 50
-	#Decoy cost
-	#Range: > -2147483648
-	decoy_cost = 50
 	#Leap cost
 	#Range: > -2147483648
 	leap_cost = 20
@@ -374,6 +375,15 @@
 	#AOE cost
 	#Range: > -2147483648
 	aoe_cost = 35
+	#Underfoot cost
+	#Range: > -2147483648
+	underfoot_cost = 5
+	#Summon Decoy cost
+	#Range: > -2147483648
+	summon_decoy_cost = 200
+	#Hex cost
+	#Range: > -2147483648
+	hex_cost = 100
 
 #Starting Spells
 ["Starter Spells"]

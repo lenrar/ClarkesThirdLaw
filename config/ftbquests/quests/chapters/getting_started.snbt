@@ -32,41 +32,30 @@
 				type: "checkmark",
 				icon: "minecraft:oak_sapling"
 			}],
-			rewards: [{
-				id: "0000000000000A93",
-				type: "command",
-				title: "Farmer's Delight",
-				icon: "kubejs:farmers_delight",
-				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_farmers_delight",
-				player_command: false
-			}]
-		},
-		{
-			x: -1.5d,
-			y: -4.0d,
-			description: [
-				"The Exploration questline's purpose is to show what's available in the pack.",
-				"",
-				"These chapters are a great place to start if you're new to Modded Minecraft or if you're in the need for inspiration.",
-				"",
-				"It currently has the following chapters:",
-				"- Tools",
-				"- Storage",
-				"- Adventure"
-			],
-			dependencies: ["0000000000000045"],
-			id: "00000000000002AC",
-			tasks: [{
-				id: "00000000000002AD",
-				type: "checkmark",
-				title: "Exploring Enigmatica",
-				icon: "minecraft:compass"
-			}],
-			rewards: [{
-				id: "00000000000002B4",
-				type: "xp",
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "524580EC03AC41A0",
+					type: "item",
+					item: "farmersdelight:egg_sandwich",
+					count: 2
+				},
+				{
+					id: "2902BEDA908AD7CA",
+					type: "item",
+					item: "farmersdelight:sweet_berry_cookie"
+				},
+				{
+					id: "2D68265F0720D3D3",
+					type: "item",
+					item: "farmersdelight:cooked_rice",
+					count: 2
+				},
+				{
+					id: "6037D091A15B38FA",
+					type: "item",
+					item: "neapolitan:strawberries"
+				}
+			]
 		},
 		{
 			icon: "minecraft:writable_book",
@@ -309,6 +298,61 @@
 				},
 				only_one: true
 			}]
+		},
+		{
+			title: "Lootr Chests",
+			icon: {
+				id: "ftbquests:custom_icon",
+				Count: 1b,
+				tag: {
+					Icon: "lootr:textures/block/barrel_top.png"
+				}
+			},
+			x: -1.5d,
+			y: -4.0d,
+			description: ["All generated chests are Lootr, meaning that the loot is unique for each player. Don't worry about taking all the supplies when raiding a village!"],
+			dependencies: ["0000000000000045"],
+			dependency_requirement: "all_started",
+			id: "40A7C0D2ACA90B4E",
+			tasks: [{
+				id: "1836C42E100DE326",
+				type: "checkmark"
+			}],
+			rewards: [{
+				id: "759C4A3930BBECD1",
+				type: "xp",
+				xp: 100
+			}]
+		},
+		{
+			title: "The Cursed Ring",
+			icon: "enigmaticlegacy:cursed_ring",
+			x: 1.5d,
+			y: -7.5d,
+			subtitle: "What is this strange ring?",
+			description: [
+				"There's a terrible energy",
+				"radiating from this ring. I ",
+				"should proceed with caution..."
+			],
+			dependencies: ["0000000000000045"],
+			id: "6D3A47AD630C57B8",
+			tasks: [{
+				id: "6BF8CD3937819F36",
+				type: "checkmark"
+			}],
+			rewards: [
+				{
+					id: "636A6F1C06CEA43F",
+					type: "item",
+					item: "enigmaticlegacy:the_acknowledgment"
+				},
+				{
+					id: "203316E84A7F8532",
+					type: "item",
+					item: "enigmaticlegacy:cursed_ring"
+				}
+			]
 		}
 	]
 }

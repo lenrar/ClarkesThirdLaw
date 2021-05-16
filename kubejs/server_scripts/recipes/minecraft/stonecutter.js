@@ -1,18 +1,18 @@
 events.listen('recipes', (event) => {
     // Conversion between different storage_blocks of the same material
-    var conversionTypes = ['storage_block', 'ore'];
-    conversionTypes.forEach((type) => {
-        materialsToUnify.forEach((material) => {
-            if (!entryIsBlacklisted(material, type)) {
-                let tag = Ingredient.of(`#forge:${type}s/${material}`);
-                if (tag.stacks.size() > 1) {
-                    tag.stacks.forEach((block) => {
-                        event.stonecutting(block.id, tag);
-                    });
-                }
-            }
-        });
-    });
+    // var conversionTypes = ['storage_block', 'ore'];
+    // conversionTypes.forEach((type) => {
+    //     materialsToUnify.forEach((material) => {
+    //         if (!entryIsBlacklisted(material, type)) {
+    //             let tag = Ingredient.of(`#forge:${type}s/${material}`);
+    //             if (tag.stacks.size() > 1) {
+    //                 tag.stacks.forEach((block) => {
+    //                     event.stonecutting(block.id, tag);
+    //                 });
+    //             }
+    //         }
+    //     });
+    // });
 
     beamRecipes.forEach((recipe) => {
         event.stonecutting(recipe.output, recipe.input);

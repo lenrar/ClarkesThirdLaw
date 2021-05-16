@@ -74,7 +74,7 @@ events.listen('recipes', (event) => {
                 weight: 1800
             },
             {
-                result: 'immersiveengineering:ore_uranium',
+                result: 'mekanism:ore_uranium',
                 weight: 500
             },
             {

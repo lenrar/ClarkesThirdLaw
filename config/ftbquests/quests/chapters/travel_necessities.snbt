@@ -1,0 +1,220 @@
+{
+	id: "6438DE84C0733097",
+	group: "74B3CF67FCEAB20F",
+	order_index: 2,
+	filename: "travel_necessities",
+	title: "Travel Necessities",
+	icon: {
+		id: "quark:backpack",
+		Count: 1b,
+		tag: {
+			Inventory: [
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{}
+			]
+		}
+	},
+	default_quest_shape: "",
+	quests: [
+		{
+			x: -0.5d,
+			y: -0.5d,
+			description: ["Use this handy glider to get around and avoid fall damage early"],
+			id: "0FECF9510BA8A610",
+			tasks: [{
+				id: "70FDBB243A45DFCE",
+				type: "item",
+				item: "paraglider:paraglider"
+			}],
+			rewards: [
+				{
+					id: "734954EA4C39288D",
+					type: "item",
+					item: "paraglider:heart_container"
+				},
+				{
+					id: "399C738041F6A76E",
+					type: "item",
+					item: "paraglider:stamina_vessel"
+				}
+			]
+		},
+		{
+			x: 0.5d,
+			y: -0.5d,
+			description: ["You know ya boi got his free taco"],
+			id: "1D13ABE7CB842C9F",
+			tasks: [{
+				id: "2095F55FCABC7BBB",
+				type: "item",
+				item: {
+					id: "quark:backpack",
+					Count: 1b,
+					tag: {
+						Inventory: [
+							{},
+							{},
+							{},
+							{},
+							{},
+							{},
+							{},
+							{},
+							{},
+							{},
+							{},
+							{},
+							{},
+							{},
+							{},
+							{},
+							{},
+							{},
+							{},
+							{},
+							{},
+							{},
+							{},
+							{},
+							{},
+							{},
+							{}
+						]
+					}
+				}
+			}],
+			rewards: [{
+				id: "19B20F144FD56DF9",
+				type: "item",
+				item: "farmersdelight:mutton_wrap"
+			}]
+		},
+		{
+			title: "Get Comfy",
+			x: -0.5d,
+			y: 0.5d,
+			id: "6FC9372FC175062E",
+			tasks: [{
+				id: "5DB081EE3EB8AA32",
+				type: "item",
+				item: {
+					id: "itemfilters:or",
+					Count: 1b,
+					tag: {
+						items: [
+							{
+								id: "comforts:sleeping_bag_purple",
+								Count: 1b
+							},
+							{
+								id: "comforts:sleeping_bag_blue",
+								Count: 1b
+							},
+							{
+								id: "comforts:sleeping_bag_brown",
+								Count: 1b
+							},
+							{
+								id: "comforts:sleeping_bag_green",
+								Count: 1b
+							},
+							{
+								id: "comforts:sleeping_bag_red",
+								Count: 1b
+							},
+							{
+								id: "comforts:sleeping_bag_black",
+								Count: 1b
+							},
+							{
+								id: "comforts:sleeping_bag_white",
+								Count: 1b
+							},
+							{
+								id: "comforts:sleeping_bag_orange",
+								Count: 1b
+							},
+							{
+								id: "comforts:sleeping_bag_magenta",
+								Count: 1b
+							},
+							{
+								id: "comforts:sleeping_bag_yellow",
+								Count: 1b
+							},
+							{
+								id: "comforts:sleeping_bag_lime",
+								Count: 1b
+							},
+							{
+								id: "comforts:sleeping_bag_pink",
+								Count: 1b
+							},
+							{
+								id: "comforts:sleeping_bag_gray",
+								Count: 1b
+							},
+							{
+								id: "comforts:sleeping_bag_light_gray",
+								Count: 1b
+							}
+						]
+					}
+				}
+			}],
+			rewards: [{
+				id: "507490E93F6DA3F5",
+				type: "item",
+				item: {
+					id: "farmersdelight:iron_knife",
+					Count: 1b,
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		},
+		{
+			x: 0.5d,
+			y: 0.5d,
+			description: ["I heard you like rope."],
+			id: "07DAF3455937573C",
+			tasks: [{
+				id: "4916285168325A8E",
+				type: "item",
+				item: "farmersdelight:rope"
+			}],
+			rewards: [{
+				id: "360B5986ACBEBBAD",
+				type: "item",
+				item: "farmersdelight:rope",
+				count: 32
+			}]
+		}
+	]
+}

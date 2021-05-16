@@ -5,7 +5,7 @@ events.listen('item.tags', (event) => {
         .add('immersiveengineering:dust_lead')
         .add('immersiveengineering:dust_silver')
         .add('immersiveengineering:dust_nickel')
-        .add('immersiveengineering:dust_uranium')
+        .add('mekanism:dust_uranium')
         .add('immersiveengineering:dust_constantan')
         .add('immersiveengineering:dust_electrum')
         .add('immersiveengineering:dust_coke')

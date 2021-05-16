@@ -1656,7 +1656,7 @@
 		"Affect Leaves" = true
 
 [oddities]
-	"Totem Of Holding" = true
+	"Totem Of Holding" = false
 	Backpack = true
 	Crate = false
 	"Matrix Enchanting" = true

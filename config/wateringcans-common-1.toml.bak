@@ -1,0 +1,143 @@
+#Can the watering cans spread grass faster
+canSpreadGrass = true
+#The refill rate of water/tick
+#Default: 30
+#Range: 1 ~ 100000
+refillRate = 30
+#Moisturize farm land
+moisturize = true
+
+[wateringcan]
+
+	[wateringcan.basic]
+		#The radius of effect for the watering can
+		#Number MUST be uneven
+		#Default: 3
+		#Range: 1 ~ 15
+		radius = 3
+		#Use water at all, or have it be infinite use
+		#Default: true
+		useWater = true
+		#Auto harvest fully grown crops
+		#Default: false
+		autoHarvest = false
+		#The maximum amount of water the watering can can hold
+		#Range: 100 ~ 100000
+		maxWater = 1000
+		#The amount of water consumed per tick
+		#Range: 1 ~ 10000
+		drainRate = 5
+		#The chance to further a growth stage
+		#Range: 1 ~ 100
+		chance = 10
+
+	[wateringcan.copper]
+		#The radius of effect for the watering can
+		#Number MUST be uneven
+		#Default: 3
+		#Range: 1 ~ 15
+		radius = 3
+		#Use water at all, or have it be infinite use
+		#Default: true
+		useWater = true
+		#Auto harvest fully grown crops
+		#Default: false
+		autoHarvest = false
+		#The maximum amount of water the watering can can hold
+		#Range: 100 ~ 100000
+		maxWater = 2000
+		#The amount of water consumed per tick
+		#Range: 1 ~ 10000
+		drainRate = 5
+		#The chance to further a growth stage
+		#Range: 1 ~ 100
+		chance = 15
+
+	[wateringcan.quartz]
+		#The radius of effect for the watering can
+		#Number MUST be uneven
+		#Default: 3
+		#Range: 1 ~ 15
+		radius = 3
+		#Use water at all, or have it be infinite use
+		#Default: true
+		useWater = true
+		#Auto harvest fully grown crops
+		#Default: false
+		autoHarvest = false
+		#The maximum amount of water the watering can can hold
+		#Range: 100 ~ 100000
+		maxWater = 5000
+		#The amount of water consumed per tick
+		#Range: 1 ~ 10000
+		drainRate = 5
+		#The chance to further a growth stage
+		#Range: 1 ~ 100
+		chance = 25
+
+	[wateringcan.diamond]
+		#The radius of effect for the watering can
+		#Number MUST be uneven
+		#Default: 5
+		#Range: 1 ~ 15
+		radius = 5
+		#Use water at all, or have it be infinite use
+		#Default: true
+		useWater = true
+		#Auto harvest fully grown crops
+		#Default: false
+		autoHarvest = false
+		#The maximum amount of water the watering can can hold
+		#Range: 100 ~ 100000
+		maxWater = 10000
+		#The amount of water consumed per tick
+		#Range: 1 ~ 10000
+		drainRate = 5
+		#The chance to further a growth stage
+		#Range: 1 ~ 100
+		chance = 35
+
+	[wateringcan.ender]
+		#The radius of effect for the watering can
+		#Number MUST be uneven
+		#Default: 7
+		#Range: 1 ~ 15
+		radius = 7
+		#Use water at all, or have it be infinite use
+		#Default: true
+		useWater = true
+		#Auto harvest fully grown crops
+		#Default: true
+		autoHarvest = true
+		#The maximum amount of water the watering can can hold
+		#Range: 100 ~ 100000
+		maxWater = 100000
+		#The amount of water consumed per tick
+		#Range: 1 ~ 10000
+		drainRate = 5
+		#The chance to further a growth stage
+		#Range: 1 ~ 100
+		chance = 45
+
+	[wateringcan.aquamarine]
+		#The radius of effect for the watering can
+		#Number MUST be uneven
+		#Default: 9
+		#Range: 1 ~ 15
+		radius = 9
+		#Use water at all, or have it be infinite use
+		#Default: false
+		useWater = false
+		#Auto harvest fully grown crops
+		#Default: true
+		autoHarvest = true
+		#The maximum amount of water the watering can can hold
+		#Range: 100 ~ 100000
+		maxWater = 10000
+		#The amount of water consumed per tick
+		#Range: 1 ~ 10000
+		drainRate = 0
+		#The chance to further a growth stage
+		#Range: 1 ~ 100
+		chance = 65
+

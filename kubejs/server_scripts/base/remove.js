@@ -1,25 +1,23 @@
+// priority: 105
+
 events.listen('recipes', (event) => {
-    var idRemovals = [
-        'eidolon:tallow',
 
-        'createaddition:copper_rod',
-        'createaddition:gold_rod',
-        'createaddition:iron_rod',
-        'createaddition:brass_rod'
-    ];
-
-    idRemovals.forEach((removal) => {
-        event.remove({ id: removal });
-    });
-
-    itemsToDisable.forEach((disabledItem) => {
+    global.itemsToDisable.forEach((disabledItem) => {
         event.remove({ output: disabledItem });
     });
 
-    event.remove({
-        output: '/\\w+:\\w+_gear$/',
-        type: 'minecraft:crafting_shaped'
+    global.duplicateMetals.forEach((disabledItem) => {
+        event.remove({ output: disabledItem });
     });
+
+    global.fluidsToDisable.forEach((disabledFluid) => {
+        event.remove({ output: disabledFluid });
+    });
+
+    // event.remove({
+    //     output: '/\\w+:\\w+_gear$/',
+    //     type: 'minecraft:crafting_shaped'
+    // });
 
     beamRecipes.forEach((recipe) => {
         event.remove({ output: recipe.output });
@@ -34,6 +32,31 @@ events.listen('recipes', (event) => {
         });
     });
 
+    event.remove({output: 'minecraft:bread', type: 'minecraft:crafting_shapeless'})
+	event.remove({output: 'minecraft:bread', type: 'minecraft:crafting_shaped'})
+
+	event.remove({output: 'immersiveengineering:stick_iron', type: 'minecraft:crafting_shaped'})
+    event.remove({output: 'immersiveengineering:stick_steel', type: 'minecraft:crafting_shaped'})
+    event.remove({output: 'immersiveengineering:stick_aluminum', type: 'minecraft:crafting_shaped'})
+
+    var iceAndFireTools = [
+        'iceandfire:silver_sword',
+        'iceandfire:silver_shovel',
+        'iceandfire:silver_pickaxe',
+        'iceandfire:silver_axe',
+        'iceandfire:silver_hoe',
+        'iceandfire:copper_sword',
+        'iceandfire:copper_shovel',
+        'iceandfire:copper_pickaxe',
+        'iceandfire:copper_axe',
+        'iceandfire:copper_hoe'
+    ]
+
+    iceAndFireTools.forEach((tool) => {
+        event.remove({ input: tool });
+    });
+
+    
     // event.remove({
     //     input: '#forge:ores/zinc',
     //     type: 'thermal:smelter'

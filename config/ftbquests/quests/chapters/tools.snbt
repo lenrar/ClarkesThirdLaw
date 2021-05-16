@@ -1593,6 +1593,85 @@
 				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_botania_loot_legendary",
 				player_command: false
 			}]
+		},
+		{
+			icon: {
+				id: "scuba_gear:scuba_helmet",
+				Count: 1b,
+				tag: {
+					Damage: 0
+				}
+			},
+			x: -7.5d,
+			y: -6.5d,
+			hide_dependency_lines: true,
+			dependencies: ["000000000000045C"],
+			id: "24E839F3BD1B6830",
+			tasks: [
+				{
+					id: "7E3925C611F0907B",
+					type: "item",
+					item: {
+						id: "scuba_gear:scuba_helmet",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "3DD375809635DAB8",
+					type: "item",
+					item: {
+						id: "scuba_gear:scuba_chestplate",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "118188EE68C4F72D",
+					type: "item",
+					item: {
+						id: "scuba_gear:scuba_leggings",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				},
+				{
+					id: "2283CBB7E7322267",
+					type: "item",
+					item: {
+						id: "scuba_gear:scuba_boots",
+						Count: 1b,
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			],
+			rewards: [
+				{
+					id: "489AF2CF2AAD247A",
+					type: "item",
+					item: "upgrade_aquatic:pink_jelly_torch",
+					count: 32
+				},
+				{
+					id: "649BCBD925F57D1A",
+					type: "item",
+					item: "thermal:gold_coin",
+					count: 64
+				},
+				{
+					id: "7EE19D1F15FB98D8",
+					type: "xp",
+					xp: 200
+				}
+			]
 		}
 	]
 }

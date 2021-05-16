@@ -12,11 +12,6 @@ events.listen('recipes', (event) => {
                 output: 'farmersdelight:milk_bottle'
             },
             {
-                input: 'farmersdelight:milk_bottle',
-                fluid: Fluid.of('create:chocolate', 250),
-                output: 'farmersdelight:hot_cocoa'
-            },
-            {
                 input: 'minecraft:glass_bottle',
                 fluid: Fluid.of('thermal:syrup', 25),
                 output: 'autumnity:syrup_bottle'

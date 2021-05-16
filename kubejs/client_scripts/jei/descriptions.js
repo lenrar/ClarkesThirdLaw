@@ -29,10 +29,17 @@ events.listen('jei.information', (event) => {
             ]
         },
         {
-            items: ['mekanismgenerators:fusion_reactor_controller'],
-            description: [
-                'The Fusion Reactor has been nerfed quite heavily.',
-                'It produces 60k-250k rf/t passively, but has potential for far higher output when paired with one or multiple Steam Turbines.'
+            items: ['akashictome:tome'],
+            description = [
+                'Put this book into your crafting grid with any info-book to help keep things organized.',
+                'Right click to select the book. Punch to reset and pick another one.'
+            ]
+        },
+        {
+            items: ['alexsmobs:mimicream'],
+            description = [
+                "Surround any tool with 8 mimicream in a crafting table to get a copy of the tool with it's enchants.", 
+                "But there is a slight twist to the copied tool."
             ]
         }
     ];
@@ -47,7 +54,14 @@ events.listen('jei.information', (event) => {
         event.add(`refinedstorage:${item}`, 'Can be dyed through crafting or by right clicking it with dye in-world.');
     });
 
-    itemsToDisable.forEach((item) => {
+    global.itemsToDisable.forEach((item) => {
+        event.add(
+            item,
+            "This item has been disabled, if you managed to obtain it please report it on Enigmatica 6's issue tracker: https://github.com/NillerMedDild/Enigmatica6/issues"
+        );
+    });
+
+    global.duplicateMetals.forEach((item) => {
         event.add(
             item,
             "This item has been disabled, if you managed to obtain it please report it on Enigmatica 6's issue tracker: https://github.com/NillerMedDild/Enigmatica6/issues"
