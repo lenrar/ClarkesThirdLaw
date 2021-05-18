@@ -47,8 +47,8 @@
   "name": "Clarke's Third Law",
   "cachedScans": [],
   "isValid": true,
-  "lastPreviousMatchUpdate": "2021-05-18T19:24:05.6441277Z",
-  "lastRefreshAttempt": "2021-05-18T15:43:42.0411832-04:00",
+  "lastPreviousMatchUpdate": "2021-05-18T20:43:08.3755959Z",
+  "lastRefreshAttempt": "2021-05-18T16:43:09.6384105-04:00",
   "isEnabled": true,
   "isPinned": false,
   "gameVersion": "1.16.5",
@@ -3546,8 +3546,8 @@
         "isServerPack": false,
         "FileNameOnDisk": "comforts-forge-1.16.4-4.0.1.0.jar"
       },
-      "dateInstalled": "2021-05-18T19:40:57.0772294Z",
-      "dateUpdated": "2021-05-18T19:40:57.0772294Z",
+      "dateInstalled": "2021-05-18T20:43:08.9866663Z",
+      "dateUpdated": "2021-05-18T20:43:08.9866663Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 3,
       "preferenceAutoInstallUpdates": null,
@@ -3786,8 +3786,8 @@
         "isServerPack": false,
         "FileNameOnDisk": "Placebo-1.16.4-4.4.4.jar"
       },
-      "dateInstalled": "2021-05-18T19:40:57.0821894Z",
-      "dateUpdated": "2021-05-18T19:40:57.0821894Z",
+      "dateInstalled": "2021-05-18T20:43:08.9921237Z",
+      "dateUpdated": "2021-05-18T20:43:08.9921237Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 4,
       "preferenceAutoInstallUpdates": null,
@@ -7935,8 +7935,8 @@
         "isServerPack": false,
         "FileNameOnDisk": "kubejs-1605.3.8-build.198-forge.jar"
       },
-      "dateInstalled": "2021-05-18T19:40:57.0717723Z",
-      "dateUpdated": "2021-05-18T19:40:57.0717723Z",
+      "dateInstalled": "2021-05-18T20:43:08.9822025Z",
+      "dateUpdated": "2021-05-18T20:43:08.9822025Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 4,
       "preferenceAutoInstallUpdates": null,
@@ -9908,101 +9908,10 @@
     {
       "addonID": 365727,
       "gameInstanceID": "25003a14-fa1e-4ae0-8016-c6585e66097a",
-      "installedFile": {
-        "id": 3185761,
-        "displayName": "v1.6.3 [Fabric 1.16-1.16.5+]",
-        "fileName": "dark-loading-screen-1.6.3.jar",
-        "fileDate": "2021-01-29T16:35:17.097Z",
-        "fileLength": 28370,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3185/761/dark-loading-screen-1.6.3.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [
-          {
-            "id": 0,
-            "addonId": 308702,
-            "type": 2,
-            "fileId": 0
-          },
-          {
-            "id": 0,
-            "addonId": 319057,
-            "type": 2,
-            "fileId": 0
-          }
-        ],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "LICENSE_dark-loading-screen",
-            "fingerprint": 1136524626,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "fabric.mod.json",
-            "fingerprint": 722144638,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "dark-loading-screen.mixins.json",
-            "fingerprint": 3167376279,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 1408645745,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "dark-loading-screen-refmap.json",
-            "fingerprint": 2171651876,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "META-INF",
-            "fingerprint": 2464251221,
-            "type": 0,
-            "invalidFingerprint": false
-          },
-          {
-            "foldername": "io",
-            "fingerprint": 3610686833,
-            "type": 0,
-            "invalidFingerprint": false
-          }
-        ],
-        "packageFingerprint": 2383232080,
-        "gameVersion": [
-          "1.16.3",
-          "1.16.1",
-          "1.17",
-          "Fabric",
-          "1.16",
-          "1.16.5",
-          "1.16.4",
-          "1.16.2"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2019-08-01T00:00:00Z",
-        "gameId": 0,
-        "isServerPack": false,
-        "FileNameOnDisk": "dark-loading-screen-1.6.3.jar"
-      },
-      "dateInstalled": "2021-05-18T19:08:18.7744465Z",
-      "dateUpdated": "2021-05-18T19:08:18.7868458Z",
-      "dateLastUpdateAttempted": "2021-05-18T19:08:18.7868458Z",
+      "installedFile": null,
+      "dateInstalled": "2021-05-18T20:43:08.9906348Z",
+      "dateUpdated": "2021-05-18T20:43:08.9906348Z",
+      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 4,
       "preferenceAutoInstallUpdates": null,
       "preferenceAlternateFile": false,
@@ -11636,8 +11545,8 @@
         "isServerPack": false,
         "FileNameOnDisk": "Apotheosis-1.16.4-4.5.4.jar"
       },
-      "dateInstalled": "2021-05-18T19:40:57.0742529Z",
-      "dateUpdated": "2021-05-18T19:40:57.0742529Z",
+      "dateInstalled": "2021-05-18T20:43:08.9841867Z",
+      "dateUpdated": "2021-05-18T20:43:08.9841867Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 4,
       "preferenceAutoInstallUpdates": null,
@@ -11998,8 +11907,8 @@
         "isServerPack": false,
         "FileNameOnDisk": "jei-1.16.5-7.7.0.91.jar"
       },
-      "dateInstalled": "2021-05-18T19:40:57.076237Z",
-      "dateUpdated": "2021-05-18T19:40:57.076237Z",
+      "dateInstalled": "2021-05-18T20:43:08.9861708Z",
+      "dateUpdated": "2021-05-18T20:43:08.9861708Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 3,
       "preferenceAutoInstallUpdates": null,
@@ -12330,8 +12239,8 @@
         "isServerPack": false,
         "FileNameOnDisk": "cloth-config-4.11.24-forge.jar"
       },
-      "dateInstalled": "2021-05-18T19:40:57.0767328Z",
-      "dateUpdated": "2021-05-18T19:40:57.0767328Z",
+      "dateInstalled": "2021-05-18T20:43:08.9861708Z",
+      "dateUpdated": "2021-05-18T20:43:08.9861708Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 3,
       "preferenceAutoInstallUpdates": null,
@@ -12919,8 +12828,8 @@
         "isServerPack": false,
         "FileNameOnDisk": "createaddition-1.16.5-20210517a.jar"
       },
-      "dateInstalled": "2021-05-18T19:40:57.081197Z",
-      "dateUpdated": "2021-05-18T19:40:57.081197Z",
+      "dateInstalled": "2021-05-18T20:43:08.9896428Z",
+      "dateUpdated": "2021-05-18T20:43:08.9896428Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 4,
       "preferenceAutoInstallUpdates": null,
@@ -14320,8 +14229,8 @@
         "isServerPack": false,
         "FileNameOnDisk": "supplementaries-1.16.5-0.12.2.jar"
       },
-      "dateInstalled": "2021-05-18T19:40:57.0782209Z",
-      "dateUpdated": "2021-05-18T19:40:57.0782209Z",
+      "dateInstalled": "2021-05-18T20:43:08.9876583Z",
+      "dateUpdated": "2021-05-18T20:43:08.9876583Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 4,
       "preferenceAutoInstallUpdates": null,
@@ -14747,8 +14656,8 @@
         "isServerPack": false,
         "FileNameOnDisk": "valhelsia_structures-1.16.5-0.1.0.jar"
       },
-      "dateInstalled": "2021-05-18T19:40:57.0797083Z",
-      "dateUpdated": "2021-05-18T19:40:57.0797083Z",
+      "dateInstalled": "2021-05-18T20:43:08.9886503Z",
+      "dateUpdated": "2021-05-18T20:43:08.9886503Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 3,
       "preferenceAutoInstallUpdates": null,
