@@ -29,8 +29,8 @@ events.listen('recipes', function (event) {
     event.replaceInput({}, 'create:dough', '#forge:doughs');
     event.replaceInput({}, 'create:bar_of_chocolate', '#forge:chocolate_bars');
 
-    event.replaceInput({}, 'mekanism:sawdust', '#forge:ores/iron');
-    event.replaceOutput({}, 'mekanism:sawdust', '#forge:ores/iron');
+    event.replaceInput({}, 'mekanism:sawdust', '#forge:dusts/wood');
+    event.replaceOutput({}, 'mekanism:sawdust', '#forge:dusts/wood');
     event.replaceOutput({}, 'mekanism:dust_lapis_lazuli', '#forge:dusts/lapis');
     event.replaceInput({}, 'mekanism:dust_lapis_lazuli', '#forge:dusts/lapis');
 

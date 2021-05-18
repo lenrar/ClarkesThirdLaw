@@ -86,7 +86,7 @@
 	"Generate Dragon Skeletons" = true
 	#1 out of this number chance per chunk for generation
 	#Range: 1 ~ 10000
-	"Spawn Cyclops Cave Chance" = 100
+	"Spawn Cyclops Cave Chance" = 250
 	#True if myrmex colonies are allowed to spawn
 	"Spawn Myrmex" = true
 	#Default attack strength of a dragonsteel sword.
@@ -101,7 +101,7 @@
 	blacklistDimensions = ["minecraft:overworld"]
 	#1 out of this number chance per chunk for generation
 	#Range: 1 ~ 10000
-	"Spawn Sea Serpent Chance" = 250
+	"Spawn Sea Serpent Chance" = 400
 	#Default sea serpent health, this is scaled to the sea serpent's particular size
 	#Range: 1.0 ~ 10000.0
 	"Sea Serpent Base Health" = 20.0
@@ -137,7 +137,7 @@
 	"Experimental Dragon path Finder" = false
 	#1 out of this number chance per chunk for generation
 	#Range: 1 ~ 10000
-	"Generate Dragon Skeleton Chance" = 300
+	"Generate Dragon Skeleton Chance" = 500
 	#True if villagers should run away and hide from dragons and other hostile Ice and Fire mobs.
 	"Villagers Fear Dragons" = true
 	#1 out of this number chance per 6000 ticks for a chicken to lay a cockatrice egg.
@@ -163,7 +163,7 @@
 	"Dragon Flight Speed Modifier" = 1.0
 	#1 out of this number chance per chunk for generation
 	#Range: 1 ~ 10000
-	"Spawn Wandering Cyclops Chance" = 100
+	"Spawn Wandering Cyclops Chance" = 200
 	#1 out of this number chance per chunk for generation
 	#Range: 1 ~ 10000
 	"Spawn Gorgon Chance" = 75
@@ -203,7 +203,7 @@
 	"Hippogryph Spawn Weight" = 2
 	#1 out of this number chance per chunk for generation
 	#Range: 1 ~ 10000
-	"Generate Dragon Roost Chance" = 360
+	"Generate Dragon Roost Chance" = 550
 	#Maximum ghost attack strength.
 	#Range: 0.0 ~ 10000.0
 	"Ghost Attack Strength" = 3.0
@@ -230,7 +230,7 @@
 	"Glacier Spawn Weight" = 4
 	#1 out of this number chance per chunk for generation
 	#Range: 1 ~ 10000
-	"Generate Dragon Cave Chance" = 180
+	"Generate Dragon Cave Chance" = 280
 	#Dragon griefing - 2 is no griefing, 1 is breaking weak blocks, 0 is default
 	#Range: 0 ~ 2
 	"Dragon Griefing" = 0
@@ -245,7 +245,7 @@
 	"Death Worms Target Monsters" = true
 	#How far away dangerous structures(dragon roosts, cyclops caves, etc.) must be from the last generated structure.
 	#Range: 1 ~ 10000
-	"Dangerous World Gen Dist Seperation" = 300
+	"Dangerous World Gen Dist Seperation" = 400
 	#True if dragons fire/ice charges create secondary explosions that launch blocks everywhere. Turn this to true if you like unfair explosions. Or lag.
 	"Explosive Dragon Breath" = false
 	#Maximum threads to use for dragon/myrmex pathfinding. Increase this number if pathing is slow and you have many cores.
