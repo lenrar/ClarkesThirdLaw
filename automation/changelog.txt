@@ -1,0 +1,540 @@
+===============================================
+ClarkesThirdLaw 1.1.3 --> ClarkesThirdLaw 1.1.4
+===============================================
+
+Updated:
+	Adaptive Performance Tweaks (APTweaks) (adaptive_performance_tweaks_1.16.5-0.4.5.jar --> adaptive_performance_tweaks_1.16.5-1.0.5.jar):
+		adaptive_performance_tweaks_1.16.5-1.0.5.jar:
+			See [https://github.com/MarkusBordihn/adaptive_performance_tweaks/commits/main](https://github.com/MarkusBordihn/adaptive_performance_tweaks/commits/main)
+
+		adaptive_performance_tweaks_1.16.5-1.0.4.jar:
+			See [https://github.com/MarkusBordihn/adaptive_performance_tweaks/commits/main](https://github.com/MarkusBordihn/adaptive_performance_tweaks/commits/main)
+
+		adaptive_performance_tweaks_1.16.5-1.0.3.jar:
+			See [https://github.com/MarkusBordihn/adaptive_performance_tweaks/commits/main](https://github.com/MarkusBordihn/adaptive_performance_tweaks/commits/main)
+
+		adaptive_performance_tweaks_1.16.5-1.0.2.jar:
+			See [https://github.com/MarkusBordihn/adaptive_performance_tweaks/commits/main](https://github.com/MarkusBordihn/adaptive_performance_tweaks/commits/main)
+
+		adaptive_performance_tweaks_1.16.5-1.0.1.jar:
+			See [https://github.com/MarkusBordihn/adaptive_performance_tweaks/commits/main](https://github.com/MarkusBordihn/adaptive_performance_tweaks/commits/main)
+
+		1 more entry
+
+	Apotheosis (Archived file --> Apotheosis-1.16.4-4.6.1.jar):
+		Apotheosis-1.16.4-4.6.1.jar:
+			[https://github.com/Shadows-of-Fire/Apotheosis/blob/1.16/changelog.md](https://github.com/Shadows-of-Fire/Apotheosis/blob/1.16/changelog.md)
+
+		Apotheosis-1.16.4-4.6.0.jar:
+			Added the ability to upgrade affixes! Items with affixes that are combined with an affix tome containing the same affix will now result in an increased level of that affix, rather than just the highest level of the two. Tomes themselves can also be merged, allowing for creation of stronger affix tomes before application to an item.
+			On top of that, Splitting and Obliteration function on Affix Tomes as well! You are free to separate and level down your affixes to create the exact strength you desire.
+			Also, the bug where soul fire particles showed up beneath your feet is fixed, so that's good.
+			And to recap from 4.5.4, affixes are now far widely more applicable to items. Items specified via datapack will no longer check the item they are applied to, and manual overrides of an item's autodetected equipment type are now possible (in deadly.cfg). This means if you want to designate a stick as a sword, and let it receive sword affixes, you can!
+
+	Architectury API (Forge) ([Forge 1.16.4/5] v1.14.157 --> [Forge 1.16.4/5] v1.17.20):
+		[Forge 1.16.4/5] v1.17.20:
+			Architectury v1.17.20 for 1.16.4/5
+			Updated at 2021-05-31 11:55.
+			[Click here for changelog](https://www.github.com/architectury/architectury/commits/1.16)
+			* Fix BiomeModifications phases on fabric
+
+		[Forge 1.16.4/5] v1.17.19:
+			Architectury v1.17.19 for 1.16.4/5
+			Updated at 2021-05-31 10:11.
+			[Click here for changelog](https://www.github.com/architectury/architectury/commits/1.16)
+
+		[Forge 1.16.4/5] v1.17.18:
+			Architectury v1.17.18 for 1.16.4/5
+			Updated at 2021-05-30 11:11.
+			[Click here for changelog](https://www.github.com/architectury/architectury/commits/1.16)
+			* Add Deprecated and ScheduledForRemoval while appropriate
+
+		[Forge 1.16.4/5] v1.17.17:
+			Architectury v1.17.17 for 1.16.4/5
+			Updated at 2021-05-28 15:18.
+			[Click here for changelog](https://www.github.com/architectury/architectury/commits/1.16)
+			* Add Javadocs for all events (#91)
+
+		[Forge 1.16.4/5] v1.17.16:
+			Architectury v1.17.16 for 1.16.4/5
+			Updated at 2021-05-27 17:38.
+			[Click here for changelog](https://www.github.com/architectury/architectury/commits/1.16)
+			* Add NetworkManager hook for Entity spawn packets (#88)
+
+		3 more entries
+
+	Ars Nouveau (ars_nouveau-1.16.4-1.16.2.jar --> ars_nouveau-1.16.5-1.18.1.jar):
+		ars_nouveau-1.16.5-1.18.1.jar:
+			Adds the Glide Effect - gain elytra flight as a potion!
+			Crafting a spell now shows all valid augments in the menu
+			Adds datapack blacklist support for sylphs
+			Fixes AOE on spell turrets for Place Block and Break
+			Bows, wands, and swords now show the proper spell color when inscribed
+			(6 more lines)
+
+		ars_nouveau-1.16.5-1.18.jar:
+			Relays and splitters may now reach up to 30 blocks, up from 10.
+			Adds extensive configs for every glyph, including values for damage, potion duration, amplify increase, and more!
+			Adds configs for limiting a given augment on a glyph
+			Adds brand new hints during crafting a spell
+			Adds redstone support to the Ritual Brazier
+			(10 more lines)
+
+		ars_nouveau-1.16.5-1.17.jar:
+			Adds the Archwood Forest Biome! FOR EXISTING WORLDS: Please add Biome ID Fixer to guard against biome swapping, [https://www.curseforge.com/minecraft/mc-mods/biome-id-fixer](https://www.curseforge.com/minecraft/mc-mods/biome-id-fixer)
+			Adds the Enchanters Sword
+			Adds the Enchanters Shield
+			Adds the Ritual of Scrying
+
+	Astral Sorcery (AstralSorcery-1.16.4-1.13.9.jar --> AstralSorcery-1.16.5-1.13.12.jar):
+		AstralSorcery-1.16.5-1.13.12.jar:
+			Built with:
+			* Forge: 36.1.23
+			* ObserverLib: 1.16.5-1.5.2 (Requires 1.5+)
+			* Curios: 1.16.5-4.0.5.1 (Requires 4.0.5+)
+			* CraftTweaker: 7.1.0.294
+			(2 more lines)
+
+		AstralSorcery-1.16.5-1.13.11.jar:
+			Built with:
+			* Forge: 36.1.23
+			* ObserverLib: 1.16.5-1.5.2 (Requires 1.5+)
+			* Curios: 1.16.5-4.0.5.1 (Requires 4.0.5+)
+			* CraftTweaker: 7.1.0.294
+			(9 more lines)
+
+		AstralSorcery-1.16.5-1.13.10.jar:
+			Built with:
+			* Forge: 36.1.23
+			* ObserverLib: 1.16.5-1.5.2 (Requires 1.5+)
+			* Curios: 1.16.5-4.0.5.1 (Requires 4.0.5+)
+			* CraftTweaker: 7.1.0.294
+			(26 more lines)
+
+	AutoRegLib (AutoRegLib-1.6-47.jar --> AutoRegLib-1.6-49.jar):
+		AutoRegLib-1.6-49.jar:
+			WARNING: This update WILL break mods that use the drop-in API. Unfortunately this had to be done. If you're using Quark, make sure you're also updating it to the latest version alongside this, or you'll crash.
+			* Updated the API for drop-in to be slot sensitive.
+
+	Better Advancements (BetterAdvancements-1.16.5-0.1.0.105 --> BetterAdvancements-1.16.5-0.1.0.108):
+		BetterAdvancements-1.16.5-0.1.0.108:
+			[[d7f22a4](https://github.com/way2muchnoise/BetterAdvancements/commit/d7f22a40f8d786ad8d5a47fb86aaa5e7e234a0ac)] update to latest mappings and stable forge (way2muchnoise)
+
+		BetterAdvancements-1.16.5-0.1.0.107:
+			[[a402bfb](https://github.com/way2muchnoise/BetterAdvancements/commit/a402bfbf96977172e260c83b2677fc220d392260)] fix alphabetical order, fixes #94 (way2muchnoise)
+
+		BetterAdvancements-1.16.5-0.1.0.106:
+			[[6e3c878](https://github.com/way2muchnoise/BetterAdvancements/commit/6e3c878ed3762da07766ac74acd77b53a7840e1f)] Mark mod as client only and not needed on the server (way2muchnoise)
+
+	Biomes O' Plenty (Biomes O' Plenty 1.16.5-13.1.0.465 --> Biomes O' Plenty 1.16.5-13.1.0.469):
+		Biomes O' Plenty 1.16.5-13.1.0.469:
+			forstride:
+			* Re-added the Woodland and Muskeg biomes, split the Marsh back into a primary biome
+			* NOTE: This update will require you to clear your configs and create a new world.
+
+		Biomes O' Plenty 1.16.5-13.1.0.468:
+			github:
+			* boat variants (#1863)
+
+		Biomes O' Plenty 1.16.5-13.1.0.467:
+			github:
+			* Create fr-fr.json (#1856)
+			* * Create fr-fr.json
+			* * Changed file name
+
+		Biomes O' Plenty 1.16.5-13.1.0.466:
+			github:
+			* Created ukrainian localization (#1852)
+
+	Bookshelf (Bookshelf-1.16.5-10.0.7.jar --> Bookshelf-1.16.5-10.1.11.jar):
+		Bookshelf-1.16.5-10.1.11.jar:
+			* Fix Russian localization file format. [(988433d)](https://github.com/Darkhax-Minecraft/Bookshelf/commit/988433d)
+			This mod was made possible by [Patreon](https://www.patreon.com/Darkhax?bookshelf) support from players like you. Thank you!
+			* Diablo Crasher
+			* BigAl607
+			* arcanearchivesmod
+			(2 more lines)
+
+		Bookshelf-1.16.5-10.1.9.jar:
+			* Migrate to new build pipeline. [(769cb80)](https://github.com/Darkhax-Minecraft/Bookshelf/commit/769cb80)
+			This mod was made possible by [Patreon](https://www.patreon.com/Darkhax?bookshelf) support from players like you. Thank you!
+			* Diablo Crasher
+			* BigAl607
+			* arcanearchivesmod
+			(2 more lines)
+
+		Bookshelf-1.16.5-10.0.8.jar:
+			* Added support for the Catalogue mod list GUI. - Tyler Hancock
+			Huge thanks to my supporters on [Patreon](https://www.patreon.com/Darkhax?MCChangelog?Bookshelf)
+			* Diablo Crasher
+			* BigAl607
+			* arcanearchivesmod
+			(2 more lines)
+
+	Catalogue (Catalogue 1.1.0 --> Catalogue 1.2.1):
+		Catalogue 1.2.1:
+			* Updated "update json url" metadata
+
+		Catalogue 1.2.0:
+			* Added support to use an image as an icon. See CurseForge mod page for documentation.
+			* Fixed mod name drawing over scroll bar
+
+	Clumps (Clumps-6.0.0.22.jar --> Clumps-6.0.0.24.jar):
+		Clumps-6.0.0.24.jar:
+			Current version: 6.0.0.24
+			* [Fix published maven libs](https://github.com/jaredlll08/Clumps/commit/352a559e979c6a403f38cb9cc326229f432359d8) - Jared - Wed May 26 11:48:11 2021
+			* [Hopefully fix a null clumpedMap. Close #62](https://github.com/jaredlll08/Clumps/commit/2ef9b36854c18d2b0ef24a6077bdb191568f54e5) - Jared - Fri Apr 30 21:36:56 2021
+			* [update forge and the build.gradle](https://github.com/jaredlll08/Clumps/commit/fb6fe02c211bc21fc942fb07557f7b9d8e253557) - Jared - Fri Apr 30 21:36:34 2021
+			* [Rework how mending is applied](https://github.com/jaredlll08/Clumps/commit/87e9b53c60750a795dd68ee4b988aee3f88fd550) - Jared - Wed Apr 14 14:43:14 2021
+			(18 more lines)
+
+		Clumps-6.0.0.23.jar:
+			Current version: 6.0.0.23
+			* [Hopefully fix a null clumpedMap. Close #62](https://github.com/jaredlll08/Clumps/commit/2ef9b36854c18d2b0ef24a6077bdb191568f54e5) - Jared - Fri Apr 30 21:36:56 2021
+			* [update forge and the build.gradle](https://github.com/jaredlll08/Clumps/commit/fb6fe02c211bc21fc942fb07557f7b9d8e253557) - Jared - Fri Apr 30 21:36:34 2021
+			* [Rework how mending is applied](https://github.com/jaredlll08/Clumps/commit/87e9b53c60750a795dd68ee4b988aee3f88fd550) - Jared - Wed Apr 14 14:43:14 2021
+			* [mark mcmt as compatible for now](https://github.com/jaredlll08/Clumps/commit/1b2ea8c2abf459e4e9334fa032ee6b7b0ce6a37d) - Jared - Tue Apr 13 15:30:29 2021
+			(17 more lines)
+
+	Configured (Configured 0.4.2 --> Configured 1.0.2):
+		Configured 1.0.2:
+			* Updated "update json url" metadata
+
+		Configured 1.0.1:
+			* Added image icon for Catalogue mod
+
+		Configured 1.0.0:
+
+	Controlling (Controlling-7.0.0.16.jar --> Controlling-7.0.0.20.jar):
+		Controlling-7.0.0.20.jar:
+			Current version: 7.0.0.20
+			* [Add Ukrainian thanks to ProSplash1 on CurseForge](https://github.com/jaredlll08/Controlling/commit/7e007fae5deb0c765304f47bef697ebcd14cab9d) - Jared - Fri May 28 13:37:52 2021
+			* [Move to modtemplate](https://github.com/jaredlll08/Controlling/commit/e8b23de90f40c17ad360b84a7d7230b0fa37d1c7) - Jared - Wed May 26 12:23:28 2021
+			* [Add support for the Catalogue mod list.](https://github.com/jaredlll08/Controlling/commit/1a408c0e2f215e95481c133c16878f657092e463) - Tyler Hancock - Fri May 14 18:50:36 2021
+			* [Fixed Author and Download link in the mod list.](https://github.com/jaredlll08/Controlling/commit/c6c0efe21eb17a5c6c30e2432f13399cd62ef880) - Tyler Hancock - Fri May 14 18:50:05 2021
+			(30 more lines)
+
+		Controlling-7.0.0.19.jar:
+			Current version: 7.0.0.19
+			* [Move to modtemplate](https://github.com/jaredlll08/Controlling/commit/e8b23de90f40c17ad360b84a7d7230b0fa37d1c7) - Jared - Wed May 26 12:23:28 2021
+			* [Add support for the Catalogue mod list.](https://github.com/jaredlll08/Controlling/commit/1a408c0e2f215e95481c133c16878f657092e463) - Tyler Hancock - Fri May 14 18:50:36 2021
+			* [Fixed Author and Download link in the mod list.](https://github.com/jaredlll08/Controlling/commit/c6c0efe21eb17a5c6c30e2432f13399cd62ef880) - Tyler Hancock - Fri May 14 18:50:05 2021
+			* [Add events for modcompat](https://github.com/jaredlll08/Controlling/commit/c00b736dd9af0f64b297bb9631d49af98bc5ee5e) - Jared - Mon Apr 19 00:40:07 2021
+			(29 more lines)
+
+		Controlling-7.0.0.18.jar:
+			Current version: 7.0.0.18
+			* [Move to modtemplate](https://github.com/jaredlll08/Controlling/commit/e8b23de90f40c17ad360b84a7d7230b0fa37d1c7) - Jared - Wed May 26 12:23:28 2021
+			* [Add support for the Catalogue mod list.](https://github.com/jaredlll08/Controlling/commit/1a408c0e2f215e95481c133c16878f657092e463) - Tyler Hancock - Fri May 14 18:50:36 2021
+			* [Fixed Author and Download link in the mod list.](https://github.com/jaredlll08/Controlling/commit/c6c0efe21eb17a5c6c30e2432f13399cd62ef880) - Tyler Hancock - Fri May 14 18:50:05 2021
+			* [Add events for modcompat](https://github.com/jaredlll08/Controlling/commit/c00b736dd9af0f64b297bb9631d49af98bc5ee5e) - Jared - Mon Apr 19 00:40:07 2021
+			(29 more lines)
+
+		Controlling-7.0.0.17.jar:
+			Current version: 7.0.0.17
+			* [Move to modtemplate](https://github.com/jaredlll08/Controlling/commit/e8b23de90f40c17ad360b84a7d7230b0fa37d1c7) - Jared - Wed May 26 12:23:28 2021
+			* [Add support for the Catalogue mod list.](https://github.com/jaredlll08/Controlling/commit/1a408c0e2f215e95481c133c16878f657092e463) - Tyler Hancock - Fri May 14 18:50:36 2021
+			* [Fixed Author and Download link in the mod list.](https://github.com/jaredlll08/Controlling/commit/c6c0efe21eb17a5c6c30e2432f13399cd62ef880) - Tyler Hancock - Fri May 14 18:50:05 2021
+			* [Add events for modcompat](https://github.com/jaredlll08/Controlling/commit/c00b736dd9af0f64b297bb9631d49af98bc5ee5e) - Jared - Mon Apr 19 00:40:07 2021
+			(29 more lines)
+
+	Corail Woodcutter (Corail Woodcutter 1.2.1 for 1.16.5 --> Corail Woodcutter 1.2.3 for 1.16.5):
+		Corail Woodcutter 1.2.3 for 1.16.5:
+			This mod supports mc version 1.14.4 to 1.16.5
+			Minecraft Version = [1.16.5] - Forge Version [36.0.0+]
+			Latest : 1.2.3 - Recommended : 1.2.1
+			Changes 1.2.3 :
+			* support for Twilight Forest
+			(9 more lines)
+
+		Corail Woodcutter 1.2.2 for 1.16.5:
+			This mod supports mc version 1.14.4 to 1.16.5
+			Minecraft Version = [1.16.5] - Forge Version [36.0.0+]
+			Latest : 1.2.2 - Recommended : 1.2.1
+			Changes 1.2.2 :
+			* support for Quark Woods
+			(7 more lines)
+
+	Crafting Tweaks (CraftingTweaks_1.16.3-12.2.0.jar --> CraftingTweaks_1.16.5-12.2.1.jar):
+		CraftingTweaks_1.16.5-12.2.1.jar:
+			Fixes
+			Fixed container items being deleted when uncompressing a stack (e.g. uncompressing a bucket of water with Pam's installed)
+			Fixed mod showing as missing despite it being optional
+
+	Default Options (DefaultOptions_1.16.3-12.2.0.jar --> DefaultOptions_1.16.5-12.2.1.jar):
+		DefaultOptions_1.16.5-12.2.1.jar:
+			Fixes
+			Fixed resource packs and language option not being applied from default options
+			Fixed default difficulty option overriding the selection made in world creation screen
+
+	FTB Ultimine (Forge) (ftb-ultimine-1605.2.0-build.26-forge.jar --> ftb-ultimine-forge-1605.2.2-build.4.jar):
+		ftb-ultimine-forge-1605.2.2-build.4.jar:
+			* Oops. Fixed build number - LatvianModder
+
+		ftb-ultimine-forge-1605.2.1-build.9999.jar:
+			No changelog available.
+
+	GeckoLib (geckolib-forge-1.16.5-3.0.35.jar --> geckolib-forge-1.16.5-3.0.38.jar):
+		geckolib-forge-1.16.5-3.0.38.jar:
+			v3.0.37
+			* Bumped core version.
+
+		geckolib-forge-1.16.5-3.0.36.jar:
+			v3.0.36
+			* Moved GeckoLibNetwork.initialize(); - Icosider
+
+	Goblin Traders (Goblin Traders 1.4.0 --> Goblin Traders 1.4.2):
+		Goblin Traders 1.4.2:
+			* Changed update json url
+
+		Goblin Traders 1.4.1:
+
+	Immersive Engineering ( ImmersiveEngineering-1.16.5-4.2.4-134 --> ImmersiveEngineering-1.16.5-5.0.0-135):
+		ImmersiveEngineering-1.16.5-5.0.0-135:
+			* Clean up the API (Malte)
+			* THIS IS A BREAKING CHANGE!
+			* Don't expect addons to work without being updated!
+			* Add buckets for potion fluids (Malte)
+			* Add ComputerCraft compat (Malte)
+			(47 more lines)
+
+	Just Enough Items (JEI) (jei-1.16.5-7.7.0.98.jar --> jei-1.16.5-7.7.0.103.jar):
+		Just Enough Items (JEI) 7.7.0:
+			* [Update es_es.json (#2373)](https://github.com/mezz/JustEnoughItems/commit/d778e8c87818db8600e9ba23dbb1c5653f52fc60) - Franco Paladini
+			* [Fix reloading not working properly on servers (#2366)](https://github.com/mezz/JustEnoughItems/commit/48045cf21915e7239a0f735a60c433b38b2512cb) - Sara Freimer
+			* [Note the legacy padding behavior for IGuiItemStackGroup#init in the API docs](https://github.com/mezz/JustEnoughItems/commit/908676843e0e779f919dd27351f1b025c6709702) - mezz
+			* [Update Russian locale (#2368)](https://github.com/mezz/JustEnoughItems/commit/fdd80cfb4ae70bee23ba3f79abc6f29f0f04c7c8) - Sergey Brovko
+			* [Update tr_tr.json (#2357)](https://github.com/mezz/JustEnoughItems/commit/9a2a1680ae4c52506a88bda590d557eaeae8146f) - omerfaruk-cakmak
+
+	Just Enough Resources (JER) (JustEnoughResources-1.16.4-0.12.0.109 --> JustEnoughResources-1.16.5-0.12.1.121):
+		JustEnoughResources-1.16.5-0.12.1.121:
+			[[ab7ad65](https://github.com/way2muchnoise/JustEnoughResources/commit/ab7ad65710ecf703fc78a602a3c7225d180f87bb)] Fix IndexOutOfBoundsException in VillagerEntry (#300) (GitHub)
+
+		JustEnoughResources-1.16.5-0.12.1.119:
+			[[d4781c3](https://github.com/way2muchnoise/JustEnoughResources/commit/d4781c3a57e794e3d20b05750f7b507ecc0b1cfa)] Update zh_tw.json (#298) (GitHub)
+
+		JustEnoughResources-1.16.5-0.12.1.114:
+			[[fda414c](https://github.com/way2muchnoise/JustEnoughResources/commit/fda414c4c3017a38598b38d1d3019d2d71137cad)] update forge mappings and version, also updated JEI (way2muchnoise)
+
+		JustEnoughResources-1.16.4-0.12.0.113:
+			[[77d48e2](https://github.com/way2muchnoise/JustEnoughResources/commit/77d48e272180ff66ed396181d5a77ab645038002)] Update zh_tw.json (#294) (GitHub)
+
+	Kotlin for Forge (Kotlin for Forge 1.12.0 --> Kotlin for Forge 1.12.1):
+		Kotlin for Forge 1.12.1:
+			1 - Updated to Kotlin 1.5.10, Updated to coroutines 1.5.0, Updated to serialization 1.2.1
+			2 - Added a missing serialization library that went missing in 1.12.0
+			3 - Finally removed the `MINECRAFT` thing that was deprecated a while ago
+			4 - Improved the buildscript and fixed some deprecation warnings, thanks Username404-59 on GitHub
+
+	KubeJS (Forge) (kubejs-1605.3.8-build.198-forge.jar --> kubejs-forge-1605.3.10-build.18.jar):
+		kubejs-forge-1605.3.10-build.18.jar:
+			* Using 'minecraft:air' as key in shaped recipe will work now - LatvianModder
+			* Added .asKJS() for vanilla entities and worlds. Useful when listening to forge events or overriding other mod things that dont support KJS - LatvianModder
+			* Added settings.useOriginalRecipeForFilters = true. Set it to false in case you get issues with unification scripts etc. - LatvianModder
+
+		kubejs-forge-1605.3.10-build.16.jar:
+			* Fixed items on cooldown still getting block.rightclick and item.rightclick events - LatvianModder
+			* Added player.airSupply and player.maxAirSupply - LatvianModder
+			* Updated maven link - LatvianModder
+			* Added RayTraceResultJS, helper methods for armor and potions in entities - LatvianModder
+			* Added entity.inWater and entity.underWater - LatvianModder
+			(2 more lines)
+
+		kubejs-1605.3.10-build.8-forge.jar:
+			* Added player.addItemCooldown(item, ticks) - LatvianModder
+			* Added try-catch around new methods - LatvianModder
+
+		kubejs-1605.3.10-build.5-forge.jar:
+			* Potentially improved {output:x} and {input:x} filters for custom recipes - LatvianModder
+			* Fixed build number - LatvianModder
+			* Fixed build number - LatvianModder
+
+		kubejs-1605.3.9-build.9999-forge.jar:
+			* Added CI - LatvianModder
+
+	Mowzie's Mobs (Mowzie's Mobs - 1.5.16 --> Mowzie's Mobs - 1.5.17):
+		Mowzie's Mobs - 1.5.17:
+			* Added Barakoaya - New Barakoa created from Masks of Faith. Barako will spawn them periodically during his fight to protect himself. They'll teleport somewhere in the village and channel a Sunblock effect on Barako, healing him slowly and making him immune to all damage. Quickly kill the Barakoaya to make Barako vulnerable again. Players wearing the Sol Visage can summon Barakoaya from Masks of Faith, too. When following the player, they'll cast a weaker version of the Sunblock effect equivalent to Regeneration I and Resistance II.
+			* Added Mask of Faith - Grants Health Boost when worn. These bonus hearts are different from Absorption hearts, as they start empty when the effect activates.
+			* Added thatch blocks - New decorative block replacing hay bales in Barakoa villages. Can be crafted with 9 grass.
+			* Adjusted Barako's stats and fight AI to account for Barakoaya
+			* Made Barako's laser reach farther
+			(65 more lines)
+
+	MythicBotany (MythicBotany-1.16.4-1.3.10.jar --> MythicBotany-1.16.4-1.3.15.jar):
+		MythicBotany-1.16.4-1.3.15.jar:
+			When the mana infuser or a rune ritual gets interrupted, it will drop solidified mana which can be converted back to mana in a mana pool.
+			Nether stars used by wither aconites, Items used by the alfsteel pylon that are not yet fully repaired and items used by the mana infuser are now protected from magnet rings
+			Datapacks can now add rune ritual recipes that consume runes from the normal rune holders
+			Fixed a bug with JEI displaying negative relative rune positions wrongy.
+			Alfsteel pylons now only require two alfsteel nuggets
+			(1 more line)
+
+		MythicBotany-1.16.4-1.3.14.jar:
+			Small changes in the lexicon and the JEI category for the mana infuser to make the mana costs more intuitive.
+
+		MythicBotany-1.16.4-1.3.12.jar:
+			More config options for mjoellnir
+
+	Nature's Compass (NaturesCompass-1.16.5-1.8.6.jar --> NaturesCompass-1.16.5-1.9.0.jar):
+		NaturesCompass-1.16.5-1.9.0.jar:
+			------------------------------------------------------------------
+			VERSION: 1.9.0 - 1.16.5
+			------------------------------------------------------------------
+			1.16.5
+			FEATURES:
+			(186 more lines)
+
+	ObserverLib (ObserverLib-1.16.4-1.5.1.jar --> ObserverLib-1.16.5-1.5.3.jar):
+		ObserverLib-1.16.5-1.5.3.jar:
+			Built with:
+			* Forge 36.1.23
+			Fixes:
+			* Fixed structure preview render crash in case the overworld doesn't exist clientside
+
+		ObserverLib-1.16.5-1.5.2.jar:
+			Built with:
+			* Forge 36.1.23
+			Fixes:
+			* Fixed concurrency crash on startup, when multiple block change listeners are added
+
+	Occultism (occultism-1.1.2.jar --> occultism-1.2.2.jar):
+		occultism-1.2.2.jar:
+			[Automated Build]
+			Changelog for this build: [https://github.com/klikli-dev/occultism/wiki/1.2.2](https://github.com/klikli-dev/occultism/wiki/1.2.2)
+			Find changes for all versions at [https://github.com/klikli-dev/occultism/releases](https://github.com/klikli-dev/occultism/releases)
+
+		occultism-1.2.1.jar:
+			[Automated Build]
+			Changelog for this build: [https://github.com/klikli-dev/occultism/wiki/1.2.1](https://github.com/klikli-dev/occultism/wiki/1.2.1)
+			Find changes for all versions at [https://github.com/klikli-dev/occultism/releases](https://github.com/klikli-dev/occultism/releases)
+
+		occultism-1.2.0.jar:
+			[Automated Build]
+			Changelog for this build: [https://github.com/klikli-dev/occultism/wiki/1.2.0](https://github.com/klikli-dev/occultism/wiki/1.2.0)
+			Find changes for all versions at [https://github.com/klikli-dev/occultism/releases](https://github.com/klikli-dev/occultism/releases)
+
+		occultism-1.1.3.jar:
+			[Automated Build]
+			Changelog for this build: [https://github.com/klikli-dev/occultism/wiki/1.1.3](https://github.com/klikli-dev/occultism/wiki/1.1.3)
+			Find changes for all versions at [https://github.com/klikli-dev/occultism/releases](https://github.com/klikli-dev/occultism/releases)
+
+	Placebo (Placebo-1.16.4-4.4.5.jar --> Placebo-1.16.4-4.5.0.jar):
+		Placebo-1.16.4-4.5.0.jar:
+			Made it so the StackLootEntry can be serialized and deserialized properly.
+			Added Patreon Wings for $10 patrons.
+			Added buttons to individually disable Trails and Wings.
+
+	Quark (Quark-r2.4-311.jar --> Quark-r2.4-312.jar):
+		Quark-r2.4-312.jar:
+			WARNING: This version of Quark requires an update to AutoRegLib. Make sure you use the latest version of both.
+			* Added a lot of step-skipping stonecutter recipes for the various stone types (eg. granite to polished granite brick vertical slab)
+			* Added Blossom Hedges. (SwanX1)
+			* Added Celebratory Lamps, in Stone and Stone Brick variants, as a celebration of Vazkii's Mods' 10th Anniversary.
+			* Biome configs have been overhauled. Instead of Biome Categories or Biome Names, every biome config now allows a compound of Biome Types (from Forge's Biome Dictionary) and Biome Names, with mixed white and blacklisting. This allows much better configuration of where you want things to spawn. Note that due to this change, some features will now spawn in additional biomes compared to the previous version.
+			(30 more lines)
+
+	Rats (rats-7.1.1-1.16.5 --> rats-7.2.0-1.16.5):
+		rats-7.2.0-1.16.5:
+			-Added Rat Patrol staff
+			-Added Rat Patrols, which allow your rats to walk a designated path and attack monsters nearby
+			-Rat Whistle now resets rat AI
+			-Added config options for wandering plague doctor
+			-Fixed server classnotfound crashes
+			(6 more lines)
+
+	Regrowth (Regrowth-1.16.4-1.16.4-1.35.0.18.jar --> Regrowth-1.16.4-1.16.5-1.35.0.19.jar):
+		Regrowth-1.16.4-1.16.5-1.35.0.19.jar:
+			Version 19: Hot Patch for null exception with Biomes You'll Go.
+			Minecraft 1.16.2 to 1.16.5, Forge 1.36.0
+			Two users have reported a crash bug involving animals attempting to grow grass on select BYG blocks- most likely the Grassy Stone Block.
+			This patch catches the exception if it occurs has a few extra debugging statements if debuglevel = 1.
+			It is *not* the permanent fix because there is some unexpected behavior users may not prefer.
+			(3 more lines)
+
+	Rhino (rhino-1.7.13-build.24.jar --> rhino-1605.1.0-build.4.jar):
+		rhino-1605.1.0-build.4.jar:
+			* Added sources jar - LatvianModder
+
+	Stoneholm, Underground Villages (Forge) (Hotfix 1.2.1 --> V1.2.2):
+		V1.2.2:
+			Unless anything critical comes up: This is the last 1.16.2-5 release.
+			Notable change: Config has changed format from TOML to JSON5. Delete your old configs.
+			Changes:
+			* Allow disabling vanilla villages.
+			* Change rarity of underground villages to equal vanilla villages.
+			(2 more lines)
+
+	Tetra (tetra-1.16.5-3.10.0.jar --> tetra-1.16.5-3.11.1.jar):
+		tetra-1.16.5-3.11.1.jar:
+			Fixes:
+			* fixed crash caused by players not having toolbelts
+
+		tetra-1.16.5-3.11.0.jar:
+			New features:
+			* added a creative-flight-like attachment for belts using planar stabilizers
+			Changes:
+			* added spanish localization, cred: Arvid6
+			* tetra bows with the infinity enchantment can now be fired without having arrows in your inventory
+			(10 more lines)
+
+	The Twilight Forest (Twilight Forest - MC 1.16.5 - 4.0.435 --> Twilight Forest - MC 1.16.5 - 4.0.490):
+		Twilight Forest - MC 1.16.5 - 4.0.490:
+			THIS IS A BETA PRE-RELEASE PORT BUILD MEANT FOR TESTING. IT IS NOT FULLY COMPLETE!
+			Please help us in the endeavor of bug squashing! If you find an issue or crash, PLEASE REPORT IT! Ensure it's not a duplicate however!
+			Happy Hunting!
+			A proper Change Log will be written for the actual Release.
+			Changes since last beta:
+			(10 more lines)
+
+		Twilight Forest - MC 1.16.5 - 4.0.482:
+			THIS IS A BETA PRE-RELEASE PORT BUILD MEANT FOR TESTING. IT IS NOT FULLY COMPLETE!
+			Please help us in the endeavor of bug squashing! If you find an issue or crash, PLEASE REPORT IT! Ensure it's not a duplicate however!
+			Happy Hunting!
+			A proper Change Log will be written for the actual Release.
+			Changes since last beta:
+			(26 more lines)
+
+		Twilight Forest - MC 1.16.5 - 4.0.467:
+			THIS IS A BETA PRE-RELEASE PORT BUILD MEANT FOR TESTING. IT IS NOT FULLY COMPLETE!
+			Please help us in the endeavor of bug squashing! If you find an issue or crash, PLEASE REPORT IT! Ensure it's not a duplicate however!
+			Happy Hunting!
+			A proper Change Log will be written for the actual Release.
+			Changes after 4.0.464:
+			(55 more lines)
+
+	Waystones (Waystones_1.16.5-7.5.1.jar --> Waystones_1.16.5-7.6.2.jar):
+		Waystones_1.16.5-7.6.2.jar:
+			Fixed crash when right-clicking a Portstone in multiplayer
+			Fixed crash when trying to break Portstone in survival
+			Additions
+			Added Portstone, a block that lets you teleport to activated waystones but can not be teleported to itself (by PssbleTrngle)
+			Fixes
+			(11 more lines)
+
+		Waystones_1.16.5-7.6.1.jar:
+			Fixed crash when trying to break Portstone in survival
+			Additions
+			Added Portstone, a block that lets you teleport to activated waystones but can not be teleported to itself ([by PssbleTrngle](https://github.com/blay09/Waystones/pull/380))
+			Fixes
+			Fixed Attuned Shards always showing as unattuned when in multiplayer
+			(10 more lines)
+
+		Waystones_1.16.5-7.6.0.jar:
+			Additions
+			Added Portstone, a block that lets you teleport to activated waystones but can not be teleported to itself ([by PssbleTrngle](https://github.com/blay09/Waystones/pull/380))
+			Fixes
+			Fixed Attuned Shards always showing as unattuned when in multiplayer
+			Fixed crash when name generation mode is set to "MIXED"
+			(9 more lines)
+
+	World Stripper (World Stripper-1.16.4-2.0.1.jar --> World Stripper-1.16.5-2.0.1.jar):
+		World Stripper-1.16.5-2.0.1.jar:
+			* [👯 👯 👯 👯 👯👯 👯 👯 👯 👯](https://github.com/EwyBoy/World-Stripper/commit/c58f31e09f29286f0a80f2073b07f4ec0acc3979)
+			* Bumped forge version
+			* Added security checks
+			* Updated toolchain
+			* Updated mappings
+			(2 more lines)
+
+Generated using ChangelogGenerator 2.0.0-pre10: https://github.com/TheRandomLabs/ChangelogGenerator

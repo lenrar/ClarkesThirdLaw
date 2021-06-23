@@ -162,3 +162,12 @@ config.json
 
 config/rftoolsdim-client.toml
 config/clienttweaks-client.toml
+
+server_files/config/*
+server_files/defaultconfigs/*
+server_files/mods/*
+server_files/libraries/*
+server_files/kubejs/*
+server_files/*.lock
+*.bak
+*.log
