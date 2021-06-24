@@ -16,16 +16,6 @@ events.listen('recipes', (event) => {
         'minecraft:wheat',
         'upgrade_aquatic:mulberry'
     ];
-    /*
-		const recipes = [
-			{
-				input: 'simplefarming:apricot',
-				fluid: 'immersiveengineering:ethanol',
-				amount: 80,
-				energy: 6400
-			}
-		];
-	*/
 
     lowAmountInputs.forEach((input) => {
         event.custom({

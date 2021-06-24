@@ -18,17 +18,6 @@
                 {
                     "type": "minecraft:item",
                     "weight": 1,
-                    "name": "simplefarming:sushi",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": 16
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "weight": 1,
                     "name": "farmersdelight:pasta_with_mutton_chop",
                     "functions": [
                         {
@@ -41,17 +30,6 @@
                     "type": "minecraft:item",
                     "weight": 1,
                     "name": "farmersdelight:squid_ink_pasta",
-                    "functions": [
-                        {
-                            "function": "set_count",
-                            "count": 16
-                        }
-                    ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "weight": 1,
-                    "name": "simplefarming:vegetable_curry",
                     "functions": [
                         {
                             "function": "set_count",

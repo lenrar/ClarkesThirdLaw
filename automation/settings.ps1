@@ -29,11 +29,11 @@ $MODPACK_NAME = "clarkes-third-law"
 $CLIENT_NAME = "ClarkesThirdLaw"
 
 # Version Of The Modpack
-$MODPACK_VERSION = "1.1.4"
+$MODPACK_VERSION = "1.1.6"
 
 # Last Version Of The Modpack
 # Needed For Changelog Parsing
-$LAST_MODPACK_VERSION = "1.1.3"
+$LAST_MODPACK_VERSION = "1.1.5"
 
 # =====================================================================//
 #  CHANGELOG SETTINGS
@@ -143,7 +143,7 @@ $ENABLE_CURSE_CLIENT_MODULE = $true
 # Toggle the modpack uploader on/off
 # Setting this to $false will also disable the Server File and Changelog Generator Modules.
 # Default: $true
-$ENABLE_MODPACK_UPLOADER_MODULE = $true
+$ENABLE_MODPACK_UPLOADER_MODULE = $false
 
 # Toggle server file feature on/off
 # Default: $true

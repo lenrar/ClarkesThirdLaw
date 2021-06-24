@@ -185,21 +185,6 @@
                             }
                         }
                     ]
-                },
-                {
-                    "type": "minecraft:item",
-                    "weight": 3,
-                    "name": "mekanismtools:refined_obsidian_paxel",
-                    "functions": [
-                        {
-                            "function": "minecraft:enchant_with_levels",
-                            "levels": {
-                                "min": 20,
-                                "max": 40
-                            },
-                            "treasure": true
-                        }
-                    ]
                 }
             ]
         }
